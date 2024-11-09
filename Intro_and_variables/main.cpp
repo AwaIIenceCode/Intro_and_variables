@@ -14,6 +14,5 @@ int main()
 
 	cout << "\nYour result = " << R_0;
 	_getch();
-
 	return 0;
 }
