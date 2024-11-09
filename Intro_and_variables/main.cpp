@@ -10,13 +10,18 @@ int main()
 	
 	//I didn’t want to write Russian verse in English letters. Output completely in English
 
-	cout << YELLOW << "An oak tree greening by the ocean," << endl;
-	cout << "A golden chain about it wound," << endl;
-	cout << "Whereon a learned cat, in motion" << endl;
-	cout << "Both day and night, will walk around," << endl;
-	cout << "On walking right, he sings a ditty," << endl;
-	cout << "On walking left, he tells a lay." << RESET << endl;
-
+	cout << YELLOW << "\a\a\aAn oak tree greening by the ocean," << endl;
 	_getch();
+	cout << "\a\a\aA golden chain about it wound," << endl;
+	_getch();
+	cout << "\a\a\aWhereon a learned cat, in motion" << endl;
+	_getch();
+	cout << "\a\a\aBoth day and night, will walk around," << endl;
+	_getch();
+	cout << "\a\a\aOn walking right, he sings a ditty," << endl;
+	_getch();
+	cout << "\a\a\aOn walking left, he tells a lay." << RESET << endl;
+	_getch();
+
 	return 0;
 }
